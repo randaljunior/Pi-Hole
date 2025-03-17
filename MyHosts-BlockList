@@ -1,0 +1,4 @@
+# lista de Hosts Bloqueados
+# colocar 0.0.0.0 <nome do domínio>
+
+0.0.0.0 ocefirewall.co.in
