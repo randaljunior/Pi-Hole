@@ -1,0 +1,110 @@
+# ==============================================================================
+# BLOCKLIST CONSOLIDADA PARA PI-HOLE (DOMÍNIOS APEX - FORMATO HOSTS)
+# ==============================================================================
+# Descrição: Domínios consolidados e compactados ao nível Apex (sem subdomínios)
+#            para bloqueio de Facebook/Instagram, Snapchat, TikTok e Twitter/X.
+# Origem dos arquivos: facebook.txt, instagram.txt, snapchat.txt, tiktok.txt, x.txt
+# Formato: 0.0.0.0 <domain>
+# Data de geração: 2026-05-25
+# Total de domínios Apex bloqueados: 87
+#
+# Nota importante: Para evitar falhas em outros sites legítimos na internet,
+#                  esta lista exclui domínios de CDNs e infraestruturas compartilhadas
+#                  (como Akamai, Cloudfront, AWS, Fastly, Baishan, etc.) que
+#                  apareciam nos arquivos originais de logs.
+# ==============================================================================
+
+# --- METAS / FACEBOOK / INSTAGRAM ---
+0.0.0.0 facebook.com
+0.0.0.0 facebook.de
+0.0.0.0 facebook.fr
+0.0.0.0 facebook.net
+0.0.0.0 facebook.pl
+0.0.0.0 fb.com
+0.0.0.0 fb.me
+0.0.0.0 fbcdn.com
+0.0.0.0 fbcdn.net
+0.0.0.0 fbsbx.com
+0.0.0.0 instagram.com
+0.0.0.0 cdninstagram.com
+0.0.0.0 messages-facebook.com
+0.0.0.0 tfbnw.net
+0.0.0.0 thefacebook.com
+
+# --- SNAPCHAT ---
+0.0.0.0 snapchat.com
+
+# --- TWITTER / X ---
+0.0.0.0 cms-twdigitalassets.com
+0.0.0.0 twimg.com
+0.0.0.0 twitter.co
+0.0.0.0 twitter.co.uk
+0.0.0.0 twitter.com
+0.0.0.0 twitter.com.au
+0.0.0.0 x.com
+
+# --- BYTEDANCE / TIKTOK ---
+0.0.0.0 amemv.com
+0.0.0.0 bdurl.net
+0.0.0.0 bytecdn.cn
+0.0.0.0 byted.org
+0.0.0.0 bytedance.com
+0.0.0.0 bytedance.net
+0.0.0.0 bytedanceapi.com
+0.0.0.0 bytedns.net
+0.0.0.0 byteicdn.com
+0.0.0.0 byteimg.com
+0.0.0.0 byteoversea.com
+0.0.0.0 byteoversea.net
+0.0.0.0 bytetcdn.com
+0.0.0.0 bytexservice.com
+0.0.0.0 chengzijianzhan.com
+0.0.0.0 ctobsnssdk.com
+0.0.0.0 douyin.com
+0.0.0.0 douyinact.com
+0.0.0.0 douyincdn.com
+0.0.0.0 douyinvideo.net
+0.0.0.0 hypstarcdn.com
+0.0.0.0 ibytedtos.com
+0.0.0.0 ibyteimg.com
+0.0.0.0 iesdouyin.com
+0.0.0.0 ipstatp.com
+0.0.0.0 isnssdk.com
+0.0.0.0 ixigua.com
+0.0.0.0 ixiguavideo.com
+0.0.0.0 ixugua.com
+0.0.0.0 jinritemai.com
+0.0.0.0 juliangyinqing.com
+0.0.0.0 liteshopads.com
+0.0.0.0 muscdn.com
+0.0.0.0 musemuse.cn
+0.0.0.0 musical.ly
+0.0.0.0 musically.ly
+0.0.0.0 mzfvozqybf.com
+0.0.0.0 neihanshequ.com
+0.0.0.0 pstatp.com
+0.0.0.0 qfyf1toi.com
+0.0.0.0 sgnssdk.com
+0.0.0.0 sgpstatp.com
+0.0.0.0 sgsnssdk.com
+0.0.0.0 snssdk.com
+0.0.0.0 tiktok.com
+0.0.0.0 tiktok.org
+0.0.0.0 tiktokcdn.com
+0.0.0.0 tiktokcdn-us.com
+0.0.0.0 tiktokv.com
+0.0.0.0 topbuzz.com
+0.0.0.0 toutiao.com
+0.0.0.0 toutiao50.com
+0.0.0.0 toutiaocdn.cn
+0.0.0.0 toutiaocdn.com
+0.0.0.0 toutiaocdn.net
+0.0.0.0 toutiaocloud.com
+0.0.0.0 toutiaocloud.net
+0.0.0.0 ttlivecdn.com
+0.0.0.0 ttwstatic.com
+0.0.0.0 ulikecam.com
+0.0.0.0 xzcs3zlph.com
+0.0.0.0 youdianyisi.com
+0.0.0.0 zjurl.cn
+0.0.0.0 zwtianshangm.com
