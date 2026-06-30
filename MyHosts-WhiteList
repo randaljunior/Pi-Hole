@@ -1,4 +1,4 @@
 # lista de Hosts Permitidos
 # colocar 0.0.0.0 <nome do domínio>
 
-
+0.0.0.0 ntp.br
